@@ -1,9 +1,10 @@
 
-1-Install Java/C++
+1-Install Java/C++/Boost
 ```
 sudo apt install default-jre
 sudo apt install build-essential
 g++ --version
+sudo apt-get install libboost-dev
 ```
 
 2-ECLIPSE 64bit
@@ -13,10 +14,12 @@ sudo ln -s /opt/eclipse/eclipse /usr/local/bin/
 eclipse
 ```
 
-3-Install Boost
-```
-sudo apt-get install libboost-dev
-```
+
+FSTREAM use ONLY when need both R/W access
+IFSTREAM input
+OFSTREAM output
+
+
 
 </br></br></br></br>
 
