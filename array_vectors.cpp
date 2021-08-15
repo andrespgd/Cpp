@@ -26,8 +26,8 @@ int main() {
 	cout << sizeof(array_1_1d) / sizeof(array_1_1d[0]) << "\n";
 	cout << "\n";
 
-    cout << sizeof(array_1_2d)    / sizeof(array_1_2d[0])    << "\n";
-    cout << sizeof(array_1_2d[0]) / sizeof(array_1_2d[0][0]) << "\n";
+        cout << sizeof(array_1_2d)    / sizeof(array_1_2d[0])    << "\n";
+        cout << sizeof(array_1_2d[0]) / sizeof(array_1_2d[0][0]) << "\n";
 	cout << "\n";
 
 	cout << array_2_1d.size() << "\n";
