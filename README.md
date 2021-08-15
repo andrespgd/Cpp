@@ -13,11 +13,11 @@ sudo tar xf eclipse-cpp-2019-12-R-linux-gtk-x86_64.tar.gz -C /opt
 sudo ln -s /opt/eclipse/eclipse /usr/local/bin/
 eclipse
 ```
+</br>
 
-
-FSTREAM use ONLY when need both R/W access
-IFSTREAM input
-OFSTREAM output
+FSTREAM use ONLY when need both R/W access</br>
+IFSTREAM input</br>
+OFSTREAM output</br>
 
 
 
