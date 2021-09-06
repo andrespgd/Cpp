@@ -25,3 +25,10 @@ OFSTREAM output</br>
 
 2D Vectors
 https://www.geeksforgeeks.org/2d-vector-in-cpp-with-user-defined-size/
+
+
+Eclipse
+-------
+-highlight text and use CTRL+SHIFT+F to auto-format 
+-CTRL+B Builds
+-CTRL+F11 Builds+Runs
