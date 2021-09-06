@@ -29,6 +29,6 @@ https://www.geeksforgeeks.org/2d-vector-in-cpp-with-user-defined-size/
 
 Eclipse
 -------
--highlight text and use CTRL+SHIFT+F to auto-format 
--CTRL+B Builds
--CTRL+F11 Builds+Runs
+-highlight text and use CTRL+SHIFT+F to auto-format</br> 
+-CTRL+B Builds</br>
+-CTRL+F11 Builds+Runs</br>
