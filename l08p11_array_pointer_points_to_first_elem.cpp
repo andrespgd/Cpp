@@ -5,9 +5,9 @@ int main() {
 
 	int arrayFive[5];
 
-	int *pArrayFive = arrayFive;
+	int *ptrArrayFive = arrayFive;
 
-	cout << "pArrayFive    = " << pArrayFive << endl;
+	cout << "pArrayFive    = " << ptrArrayFive << endl;
 
 	cout << "&arrayFive[0] = " << &arrayFive[0] << endl;
 
