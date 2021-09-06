@@ -1,15 +1,15 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+int main() {
 
-	int   arrayFive[5];
+	int arrayFive[5];
 
-	int* pArrayFive = arrayFive;
+	int *pArrayFive = arrayFive;
 
 	cout << "pArrayFive    = " << pArrayFive << endl;
 
-    cout << "&arrayFive[0] = "  << &arrayFive[0] << endl;
+	cout << "&arrayFive[0] = " << &arrayFive[0] << endl;
 
 	return 0;
 }
