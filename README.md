@@ -1,3 +1,6 @@
+ECLIPSE FOR LINUX
+-----------------
+
 
 1-Install Java/C++/Boost
 ```
@@ -22,6 +25,18 @@ OFSTREAM output</br>
 
 
 </br></br></br></br>
+
+
+ECLIPSE FOR WINDOWS
+
+1 download cygwin setupx8664.exe
+Install needed packages and boost
+
+2 add cygwin vin to path
+
+3 install eclipse
+
+
 
 2D Vectors
 https://www.geeksforgeeks.org/2d-vector-in-cpp-with-user-defined-size/
