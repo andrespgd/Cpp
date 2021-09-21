@@ -28,6 +28,7 @@ OFSTREAM output</br>
 
 
 ECLIPSE FOR WINDOWS
+--------------------
 
 1 download cygwin setupx8664.exe
 Install needed packages and boost
@@ -38,12 +39,14 @@ Install needed packages and boost
 
 
 
-2D Vectors
-https://www.geeksforgeeks.org/2d-vector-in-cpp-with-user-defined-size/
-
 
 Eclipse
 -------
 -highlight text and use CTRL+SHIFT+F to auto-format</br> 
 -CTRL+B Builds</br>
 -CTRL+F11 Builds+Runs</br>
+
+
+C++ 2D Vectors
+https://www.geeksforgeeks.org/2d-vector-in-cpp-with-user-defined-size/
+
