@@ -1,1 +1,0 @@
-g++ 13_opencv.cpp -o 13_opencv.exe `pkg-config --cflags --libs opencv`
