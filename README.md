@@ -1,3 +1,23 @@
+The following code will cause a segmentation error: 0x403010 Segmentation fault (core dumped)
+-because it tries to access a specified memory location
+-this memory location is forbidden to me, because it is outside the scope of this program
+```
+#include<iostream>
+void main() {
+  int* p =(int*)0x403010;
+  std::cout << p << *p;
+}
+```
+
+
+
+
+
+
+
+
+
+
 ECLIPSE FOR LINUX
 -----------------
 
