@@ -34,9 +34,7 @@ c3
 
 
 
-ECLIPSE FOR LINUX
------------------
-
+# ECLIPSE FOR LINUX
 
 1-Install Java/C++/Boost
 ```
@@ -52,22 +50,60 @@ sudo tar xf eclipse-cpp-2019-12-R-linux-gtk-x86_64.tar.gz -C /opt
 sudo ln -s /opt/eclipse/eclipse /usr/local/bin/
 eclipse
 ```
-</br>
 
-FSTREAM use ONLY when need both R/W access</br>
-IFSTREAM input</br>
-OFSTREAM output</br>
+# FSTREAM
+
+FSTREAM use ONLY when need both R/W access
+
+IFSTREAM input
+
+OFSTREAM output
 
 
+# FILESYSTEM
+* filesystem C++17
+```
+#include <iostream>
+#include <fstream>
+#include <cstdlib>
+#include <filesystem>
+namespace fs = std::filesystem;
+ 
+int main()
+{
+    fs::current_path(fs::temp_directory_path());
+    fs::create_directories("sandbox/1/2/a");
+    fs::create_directory("sandbox/1/2/b");
+    fs::permissions("sandbox/1/2/b", fs::perms::others_all, fs::perm_options::remove);
+    fs::create_directory("sandbox/1/2/c", "sandbox/1/2/b");
+    std::system("ls -l sandbox/1/2");
+    std::system("tree sandbox");
+    fs::remove_all("sandbox");
+}
+```
+* boost filesystem
+can join paths with / , convert to string, etc
+```
+#include <boost/filesystem.hpp>
+#include <boost/foreach.hpp>
+int main()
+{
+	boost::filesystem::path targetDir( "C:\\MyStuff" ); 
+	boost::filesystem::directory_iterator it( targetDir ), eod;
+	BOOST_FOREACH( boost::filesystem::path const &p, std::make_pair( it, eod ) )   { 
+		if( is_regular_file( p ) ){
+			std::string filename = p.filename().string();
+			std::cout << filename << std::endl;
+		} 
+	}
+	return 0;
+}
+```
 
-</br></br></br></br>
 
+# ECLIPSE FOR WINDOWS
 
-ECLIPSE FOR WINDOWS
---------------------
-
-1 download cygwin setupx8664.exe
-Install needed packages and boost
+1 download cygwin setupx8664.exe : Install needed packages and boost
 
 2 add cygwin vin to path
 
@@ -76,13 +112,15 @@ Install needed packages and boost
 
 
 
-Eclipse
--------
--highlight text and use CTRL+SHIFT+F to auto-format</br> 
--CTRL+B Builds</br>
--CTRL+F11 Builds+Runs</br>
+# Eclipse
+
+-highlight text and use CTRL+SHIFT+F to auto-format
+
+-CTRL+B Builds
+
+-CTRL+F11 Builds+Runs
 
 
-C++ 2D Vectors
+# 2D Vectors
 https://www.geeksforgeeks.org/2d-vector-in-cpp-with-user-defined-size/
 
