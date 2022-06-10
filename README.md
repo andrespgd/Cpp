@@ -31,7 +31,20 @@ b2
 c3
 ```
 
+# POINTERS
 
+## Pointers and Arrays
+```
+#include <iostream>
+int main() {
+    int a[4] = {0, 10, 20, 30};
+    std::cout << a[3] << " " << *(a + 3) << " " << *(3 + a) << " " << 3[a];
+}
+```
+Will output:
+```
+30 30 30 30
+```
 
 
 # ECLIPSE FOR LINUX
