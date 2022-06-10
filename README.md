@@ -12,8 +12,24 @@ void main() {
 
 
 
-
-
+# ARGs
+```
+#include <iostream>
+void main(int argc, char** argv) {
+    std::cout << "Have " << argc << " arguments:" << std::endl;
+    for (int i = 0; i < argc; ++i) {
+        std::cout << argv[i] << std::endl;
+        }
+}
+```
+Running it with ./test a1 b2 c3 will output:
+```
+Have 4 arguments:
+./test
+a1
+b2
+c3
+```
 
 
 
