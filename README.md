@@ -58,8 +58,12 @@ sudo apt-get install libboost-dev
 ```
 
 2-ECLIPSE 64bit
+Download latest Eclipse C++ file
+For example: eclipse-cpp-2022-12-R-linux-gtk-x86_64.tar.gz  
+Find online link and download with wget
 ```
-sudo tar xf eclipse-cpp-2019-12-R-linux-gtk-x86_64.tar.gz -C /opt
+wget http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/technology/epp/downloads/release/2022-12/R/eclipse-cpp-2022-12-R-linux-gtk-x86_64.tar.gz
+sudo tar xf eclipse-cpp-2022-12-R-linux-gtk-x86_64.tar.gz -C /opt
 sudo ln -s /opt/eclipse/eclipse /usr/local/bin/
 eclipse
 ```
