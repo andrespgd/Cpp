@@ -49,21 +49,22 @@ Will output:
 
 # ECLIPSE FOR LINUX
 
-1-Install Java/C++/Boost
+1-Install Java/C++/Boost/CMake
 ```
 sudo apt install default-jre
 sudo apt install build-essential
+sudo apt install g++
 g++ --version
+sudo apt install cmake
 sudo apt-get install libboost-dev
 ```
 
 2-ECLIPSE 64bit
 
-Download latest Eclipse C++ file
+Find/Download latest Eclipse C++ file online
 
 For example: eclipse-cpp-2022-12-R-linux-gtk-x86_64.tar.gz 
 
-Find online link and download with wget
 ```
 wget http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/technology/epp/downloads/release/2022-12/R/eclipse-cpp-2022-12-R-linux-gtk-x86_64.tar.gz
 sudo tar xf eclipse-cpp-2022-12-R-linux-gtk-x86_64.tar.gz -C /opt
@@ -128,30 +129,6 @@ int main()
 2 add cygwin vin to path
 
 3 install eclipse
-
-
-# ECLIPSE FOR LINUX
-
-1 G++
-```
-sudo apt install g++
-```
-
-2 Build Essential
-```
-sudo apt install build-essential
-```
-
-3 CMAKE
-```
-sudo install cmake
-```
-
-
-4 install Eclipse
-
-https://www.eclipse.org/downloads/packages/.
-
 
 
 
