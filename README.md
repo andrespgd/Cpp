@@ -130,6 +130,29 @@ int main()
 3 install eclipse
 
 
+# ECLIPSE FOR LINUX
+
+1 G++
+```
+sudo apt install g++
+```
+
+2 Build Essential
+```
+sudo apt install build-essential
+```
+
+3 CMAKE
+```
+sudo install cmake
+```
+
+
+4 install Eclipse
+
+https://www.eclipse.org/downloads/packages/.
+
+
 
 
 # Eclipse
