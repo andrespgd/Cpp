@@ -47,30 +47,7 @@ Will output:
 ```
 
 
-# ECLIPSE FOR LINUX
 
-1-Install Java/C++/Boost/CMake
-```
-sudo apt install default-jre
-sudo apt install build-essential
-sudo apt install g++
-g++ --version
-sudo apt install cmake
-sudo apt-get install libboost-dev
-```
-
-2-ECLIPSE 64bit
-
-Find/Download latest Eclipse C++ file online
-
-For example: eclipse-cpp-2022-12-R-linux-gtk-x86_64.tar.gz 
-
-```
-wget http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/technology/epp/downloads/release/2022-12/R/eclipse-cpp-2022-12-R-linux-gtk-x86_64.tar.gz
-sudo tar xf eclipse-cpp-2022-12-R-linux-gtk-x86_64.tar.gz -C /opt
-sudo ln -s /opt/eclipse/eclipse /usr/local/bin/
-eclipse
-```
 
 # FSTREAM
 
@@ -121,6 +98,30 @@ int main()
 }
 ```
 
+# ECLIPSE FOR LINUX
+
+1-Install Java/C++/Boost/CMake
+```
+sudo apt install default-jre
+sudo apt install build-essential
+sudo apt install g++
+g++ --version
+sudo apt install cmake
+sudo apt-get install libboost-dev
+```
+
+2-ECLIPSE 64bit
+
+Find/Download latest Eclipse C++ file online
+
+For example: eclipse-cpp-2022-12-R-linux-gtk-x86_64.tar.gz 
+
+```
+wget http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/technology/epp/downloads/release/2022-12/R/eclipse-cpp-2022-12-R-linux-gtk-x86_64.tar.gz
+sudo tar xf eclipse-cpp-2022-12-R-linux-gtk-x86_64.tar.gz -C /opt
+sudo ln -s /opt/eclipse/eclipse /usr/local/bin/
+eclipse
+```
 
 # ECLIPSE FOR WINDOWS
 
@@ -132,7 +133,7 @@ int main()
 
 
 
-# Eclipse
+# ECLIPSE SHORTCUT KEYS
 
 -highlight text and use CTRL+SHIFT+F to auto-format
 
