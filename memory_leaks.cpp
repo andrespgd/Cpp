@@ -17,9 +17,13 @@ delete[] ptr before the end of the loop.
 #include <iostream>
 
 int main() {
+    int counter = 0;
     while (true) {
         // Allocate memory dynamically, but never free it
         int* ptr = new int[1000000];
+        std::cout << ptr << " " << counter << std::endl;
+        //delete ptr;
+        counter++;
     }
 
     return 0;
