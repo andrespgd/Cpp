@@ -86,7 +86,7 @@ IFSTREAM input
 OFSTREAM output
 
 
-# FILESYSTEM
+# FILESYSTEM (Works like Pathlib in Python)
 * filesystem C++17
 ```
 #include <iostream>
