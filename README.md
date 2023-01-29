@@ -52,7 +52,20 @@ Will output:
 * A unique pointer, on the other hand, is a type of smart pointer that is designed to manage the lifetime of the object it points to. It ensures that the object is properly deleted when the unique pointer goes out of scope. Additionally, unique pointers cannot be copied, ensuring that only one unique pointer is pointing to an object at a time.
 
 * In summary, a raw pointer is a simple memory address and has no ownership of the object, while a unique pointer has ownership and manages the lifetime of the object it points to.
+```
+#include <iostream>
+#include <memory>
 
+int main() {
+    // Raw pointer example:
+    int* raw_ptr = new int(5);
+    std::cout << "Raw pointer value: " << *raw_ptr << std::endl;
+
+    // Unique pointer example:
+    std::unique_ptr<int> unique_ptr = std::make_unique<int>(10);
+    std::cout << "Unique pointer value: " << *unique_ptr << std::endl;
+}
+```
 
 # FSTREAM
 
