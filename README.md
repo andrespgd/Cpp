@@ -66,6 +66,14 @@ int main() {
     std::cout << "Unique pointer value: " << *unique_ptr << std::endl;
 }
 ```
+## Pointers and methods
+```
+// Raw pointer
+myFish.swim()
+
+// Unique pointer
+pFish->swim()
+```
 
 # FSTREAM
 
