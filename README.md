@@ -1,6 +1,9 @@
 
 
+# NEW
+You should use new when you wish an object to remain in existence until you delete it. If you do not use new then the object will be destroyed when it goes out of scope.
 
+Some people will say that the use of new decides whether your object is on the heap or the stack, but that is only true of variables declared within functions.
 
 
 # ARGs
