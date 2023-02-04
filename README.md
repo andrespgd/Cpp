@@ -1,4 +1,8 @@
 
+# VERSION
+```
+   std::cout << __cplusplus;
+```
 
 # NEW
 You should use new when you wish an object to remain in existence until you delete it. If you do not use new then the object will be destroyed when it goes out of scope.
