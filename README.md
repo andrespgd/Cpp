@@ -59,6 +59,27 @@ int main() {
     std::unique_ptr<int> unique_ptr = std::make_unique<int>(10);
     std::cout << "Unique pointer value: " << *unique_ptr << std::endl;
 }
+
+Unique_ptr initialization ways for simple variable:
+```
+#include <iostream>
+#include <memory>
+
+int main()
+{
+// common way to use it, declaring the variable in the same line
+std::unique_ptr<int> ptrToInt1(new int(5));
+std::cout << "Value stored in unique_ptr: " << *ptrToInt1 << std::endl;
+
+// declaring int variable before
+int val = 5;
+std::unique_ptr<int> ptrToInt2(new int(val));
+std::cout << "Value stored in unique_ptr: " << *ptrToInt2 << std::endl;
+
+return 0;
+}
+```
+
 ```
 ## Pointers and methods
 ```
