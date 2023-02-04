@@ -59,7 +59,7 @@ int main() {
     std::unique_ptr<int> unique_ptr = std::make_unique<int>(10);
     std::cout << "Unique pointer value: " << *unique_ptr << std::endl;
 }
-
+```
 Unique_ptr initialization ways for simple variable:
 ```
 #include <iostream>
