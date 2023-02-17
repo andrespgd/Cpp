@@ -45,7 +45,10 @@ Will output:
 ```
 
 ## Raw Pointers Vs. Unique Pointers
-* A raw pointer in C++ is a type of pointer that holds the memory address of an object. It does not manage the lifetime of the object it points to, and can be used to create memory leaks if not handled properly.
+* A raw pointer:
+	* holds the memory address of an object
+	* does NOT manage the lifetime of the object it points to
+	* can be used to create memory leaks if not handled properly.
 
 * A unique pointer, on the other hand, is a type of smart pointer that is designed to manage the lifetime of the object it points to. It ensures that the object is properly deleted when the unique pointer goes out of scope. Additionally, unique pointers cannot be copied, ensuring that only one unique pointer is pointing to an object at a time.
 
