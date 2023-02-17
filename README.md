@@ -50,9 +50,14 @@ Will output:
 	* does NOT manage the lifetime of the object it points to
 	* can be used to create memory leaks if not handled properly.
 
-* A unique pointer, on the other hand, is a type of smart pointer that is designed to manage the lifetime of the object it points to. It ensures that the object is properly deleted when the unique pointer goes out of scope. Additionally, unique pointers cannot be copied, ensuring that only one unique pointer is pointing to an object at a time.
+* A unique pointer
+	* is a type of smart pointer that is designed to manage the lifetime of the object it points to
+	* ensures that the object is properly deleted when the unique pointer goes out of scope
+	* cannot be copied, ensuring that only one unique pointer is pointing to an object at a time
 
-* In summary, a raw pointer is a simple memory address and has no ownership of the object, while a unique pointer has ownership and manages the lifetime of the object it points to.
+* Summary:
+	* a raw pointer is a simple memory address and has no ownership of the object
+	* while a unique pointer has ownership and manages the lifetime of the object it points to
 ```
 #include <iostream>
 #include <memory>
