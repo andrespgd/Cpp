@@ -1,3 +1,18 @@
+# Simplest Code hello.cpp
+```
+#include <iostream>
+int main(){
+    std::cout<<"hi";
+    return 0;
+}
+```
+
+# Compile
+```
+g++ hello.cpp
+g++ hello.cpp -o hello
+g++ -std=c++11 hello.cpp -o hello
+```
 
 # VERSION
 ```
