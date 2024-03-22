@@ -14,7 +14,7 @@ int main() {
 
   // Print the argument and value of the maximum element.
   std::cout << "max element pos: " << max_value_position << std::endl;
-  std::cout << "max element val: "    << max_value          << std::endl;
+  std::cout << "max element val: " << max_value          << std::endl;
 
   // Print the vector to the screen
   std::cout << "Vector is: " << std::endl;
