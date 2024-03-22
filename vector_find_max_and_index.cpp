@@ -1,20 +1,20 @@
-#include <algorithm>
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 int main() {
-  std::vector<int> v = {1, 2, 3, 4, 5};
+  // Create a vector of integers
+  std::vector<int> v = {1, 5, 3, 4, 2};
 
-  // Find the iterator to the maximum element.
-  std::vector<int>::iterator it = std::max_element(v.begin(), v.end());
+  // Find the largest value in the vector
+  int max_value = *std::max_element(v.begin(), v.end());
 
-  // Get the value of the maximum element.
-  int max_value = *it;
-  int max_value_position =  std::distance(v.begin(), it);
+  // Find the index of the largest value
+  int max_index = std::distance(v.begin(), std::max_element(v.begin(), v.end()));
 
   // Print the argument and value of the maximum element.
-  std::cout << "max element pos: " << max_value_position << std::endl;
-  std::cout << "max element val: " << max_value          << std::endl;
+  std::cout << "max element pos: " << max_index << std::endl;
+  std::cout << "max element val: " << max_value << std::endl;
 
   // Print the vector to the screen
   std::cout << "Vector is: " << std::endl;
